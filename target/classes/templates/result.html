@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Word Counter Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'Input string has ' + ${word_counter.content} + ' word(s)'" />
+    <a href="/word_counter">Submit another message</a>
+</body>
+</html>
